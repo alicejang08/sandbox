@@ -14,6 +14,10 @@ def divide(a, b):
     print "DIVIDING %d / %d" % (a, b)
     return a / b
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 print "Let's do some math with just functions!"
 
 age = add(30, 5)
@@ -24,7 +28,10 @@ iq = divide(100, 2)
 print "Age: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
 # A puzzle for the extra credit, type it in anyway.
 print "Here is a puzzle."
 
