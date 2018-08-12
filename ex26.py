@@ -9,7 +9,7 @@ def sort_words(words):
 
 def print_first_word(words):
     """Prints the first word after popping it off."""
-    word = words.poop(0)
+    word = words.pop(0)
     print word
 
 def print_last_word(words):
@@ -78,18 +78,18 @@ print "We can also do that this way:"
 print "We'd have %d jelly_beans, %d jars, and %d crabapples." % secret_formula(start_point)
 
 
-sentence = "All god\tthings come to those who weight."
+sentence = "All good things come to those who weight."
 ex26 = "123"
-words = ex26.break_words(sentence)
-sorted_words = ex26.sort_words(words)
+words = break_words(sentence)
+sorted_words = sort_words(words)
 
 print_first_word(words)
 print_last_word(words)
 print_first_word(sorted_words)
 print_last_word(sorted_words)
-sorted_words = ex26.sort_sentence(sentence)
+sorted_words = sort_sentence(sentence)
 print sorted_words
 
 print_first_and_last(sentence)
 
-print_first_a_last_sorted(senence)
+print_first_and_last_sorted(sentence)
