@@ -48,7 +48,7 @@ def cthulhu_room():
     print "Do you flee for your life or eat your head?"
 
     choice = raw_input("> ")
-# Checks if inout word contains "flee" or "head"
+# Checks if input word contains "flee" or "head"
     if "flee" in choice:
         start()
     elif "head" in choice:
